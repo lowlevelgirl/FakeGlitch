@@ -8,8 +8,8 @@ A program to add a glitch effect to the screen or some picture.
 
 
 ## Files
-- `FakeGlitch.exe` add the glitch effect to your screen.
-- `FakeGlitchGUI.exe` add the glitch effect to your picture.
+- `bin/FakeGlitch.exe` add the glitch effect to your screen.
+- `bin/FakeGlitchGUI.exe` add the glitch effect to your picture.
 
 ## Also
 - `C-button` close the program.
