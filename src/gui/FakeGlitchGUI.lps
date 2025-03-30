@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="FakeGlitchGUI.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FakeGlitchWindow"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="23"/>
+        <CursorPos X="3" Y="40"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="12" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="16" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="17" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="19" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="41" Column="10" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="18" Column="40" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="43" Column="5" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="19" Column="14" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="39" Column="6" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="23" Column="11" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="37" Column="6" TopLine="29"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

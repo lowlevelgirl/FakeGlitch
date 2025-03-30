@@ -1,0 +1,33 @@
+object FakeGlitchWindow: TFakeGlitchWindow
+  Left = 538
+  Height = 500
+  Top = 250
+  Width = 400
+  BorderStyle = bsSingle
+  Caption = 'FakeGlitch'
+  ClientHeight = 500
+  ClientWidth = 400
+  object FakeGlitch: TLabel
+    Left = 112
+    Height = 45
+    Top = 72
+    Width = 149
+    Caption = 'FakeGlitch'
+    Font.Height = -33
+    ParentFont = False
+  end
+  object Start: TButton
+    Left = 112
+    Height = 49
+    Top = 368
+    Width = 149
+    Caption = 'Start'
+    ParentFont = False
+    TabOrder = 0
+    OnClick = StartGlitch
+  end
+  object OpenDialog: TOpenDialog
+    Left = 304
+    Top = 168
+  end
+end
