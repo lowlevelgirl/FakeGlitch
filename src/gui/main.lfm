@@ -1,33 +1,61 @@
 object FakeGlitchWindow: TFakeGlitchWindow
   Left = 538
-  Height = 500
+  Height = 400
   Top = 250
   Width = 400
-  BorderStyle = bsSingle
+  BorderStyle = bsDialog
   Caption = 'FakeGlitch'
-  ClientHeight = 500
+  ClientHeight = 400
   ClientWidth = 400
+  OnCreate = FormCreate
   object FakeGlitch: TLabel
-    Left = 112
-    Height = 45
-    Top = 72
-    Width = 149
+    Left = 88
+    Height = 62
+    Top = 56
+    Width = 212
     Caption = 'FakeGlitch'
-    Font.Height = -33
+    Font.Height = -47
     ParentFont = False
   end
-  object Start: TButton
-    Left = 112
+  object Startwp: TButton
+    Left = 110
     Height = 49
-    Top = 368
+    Top = 224
     Width = 149
-    Caption = 'Start'
+    Caption = 'Start with picture'
     ParentFont = False
     TabOrder = 0
-    OnClick = StartGlitch
+    OnClick = StartwpGlitch
+  end
+  object Startws: TButton
+    Left = 110
+    Height = 49
+    Top = 280
+    Width = 147
+    Caption = 'Start with screen'
+    TabOrder = 1
+    OnClick = StartwsGlitch
+  end
+  object Sfolder: TButton
+    Left = 110
+    Height = 25
+    Top = 168
+    Width = 149
+    Caption = 'Select a picture'
+    TabOrder = 2
+    OnClick = SfolderClick
+  end
+  object Fstring: TEdit
+    Left = 110
+    Height = 23
+    Top = 144
+    Width = 149
+    ReadOnly = True
+    TabOrder = 3
   end
   object OpenDialog: TOpenDialog
-    Left = 304
-    Top = 168
+    Options = [ofAllowMultiSelect, ofViewDetail]
+    Left = 368
+    Top = 8
   end
 end
